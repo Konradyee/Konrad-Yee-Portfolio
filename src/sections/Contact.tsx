@@ -2,6 +2,8 @@ import { useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, Linkedin, Download, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+const BASE = import.meta.env.BASE_URL;
+
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -109,7 +111,7 @@ const Contact = () => {
           <Button
             size="lg"
             className="bg-[hsl(var(--gold))] hover:bg-[hsl(var(--gold))]/90 text-[hsl(var(--navy))] px-8 py-6 text-lg rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
-            onClick={() => window.open('/Konrad_Yee_Resume.pdf', '_blank')}
+            onClick={() => window.open(`${BASE}Konrad_Yee_Resume.pdf`, '_blank')}
           >
             <Download className="mr-2 w-5 h-5" />
             Download Resume

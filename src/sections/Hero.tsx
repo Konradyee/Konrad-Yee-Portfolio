@@ -2,6 +2,8 @@ import { useEffect, useRef } from 'react';
 import { ArrowDown, Download, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+const BASE = import.meta.env.BASE_URL;
+
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
 
@@ -104,7 +106,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-2 border-[hsl(var(--navy))] text-[hsl(var(--navy))] hover:bg-[hsl(var(--navy))] hover:text-white px-8 py-6 text-lg rounded-xl transition-all"
-              onClick={() => window.open('/Konrad_Yee_Resume.pdf', '_blank')}
+              onClick={() => window.open(`${BASE}Konrad_Yee_Resume.pdf`, '_blank')}
             >
               <Download className="mr-2 w-5 h-5" />
               Download Resume
