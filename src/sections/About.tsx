@@ -65,7 +65,7 @@ const About = () => {
                       University of Toronto
                     </p>
                     <p className="text-gray-400 text-sm">
-                      Sept 2024 – Apr 2029 (Expected)
+                      Sept 2024
                     </p>
                     <div className="mt-3 inline-flex items-center gap-2 px-3 py-1 bg-[hsl(var(--gold))]/10 text-[hsl(var(--gold))] rounded-full text-sm font-medium">
                       <Award className="w-4 h-4" />
