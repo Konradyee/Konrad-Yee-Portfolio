@@ -54,7 +54,7 @@ const Hero = () => {
             className="reveal opacity-0-init inline-flex items-center gap-2 px-4 py-2 bg-[hsl(var(--navy))]/10 text-[hsl(var(--navy))] rounded-full text-sm font-medium mb-8"
           >
             <Briefcase className="w-4 h-4" />
-            Available May 2026
+            Available May 2027
           </div>
 
           {/* Main Title */}
