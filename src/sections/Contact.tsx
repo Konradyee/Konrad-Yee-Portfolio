@@ -75,7 +75,7 @@ const Contact = () => {
           {/* Availability Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-sm font-medium mt-6">
             <Briefcase className="w-4 h-4 text-[hsl(var(--gold))]" />
-            <span>Available for opportunities starting May 2026</span>
+            <span>Available for opportunities starting May 2027</span>
           </div>
         </div>
 
