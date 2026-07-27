@@ -24,7 +24,7 @@ const About = () => {
 
   const stats = [
     { icon: Building2, value: '60+', label: 'Solar Projects' },
-    { icon: Award, value: '65.5m', label: 'Bridge Designed' },
+    { icon: Award, value: '65.5 meter', label: 'Bridge Designed' },
     { icon: Users, value: '3rd', label: 'Transportation Debate' },
     { icon: GraduationCap, value: '2029', label: 'Expected Graduation' },
   ];
